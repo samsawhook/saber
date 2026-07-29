@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tandem Search Partners — Retained Executive Search</title>
+  <meta name="description" content="Tandem Search Partners places credentialed finance, legal, and operating executives. Veteran search partners working in tandem with Meridian, our proprietary talent-intelligence platform.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ============ Reusable interwoven-strand symbol ============ -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <g id="braid">
+        <!-- Strand A -->
+        <path class="strand" d="M0,100 C50,40 100,40 150,100 C200,160 250,160 300,100 C350,40 400,40 450,100 C500,160 550,160 600,100"/>
+        <!-- Strand B, casing then stroke (B passes over A at each crossing) -->
+        <path class="casing" d="M0,100 C50,160 100,160 150,100 C200,40 250,40 300,100 C350,160 400,160 450,100 C500,40 550,40 600,100"/>
+        <path class="strand" d="M0,100 C50,160 100,160 150,100 C200,40 250,40 300,100 C350,160 400,160 450,100 C500,40 550,40 600,100"/>
+        <!-- Restore A on top at 1st and 3rd crossings → true over-under weave -->
+        <path class="casing" d="M128,74 C140,88 145,94 150,100 C155,106 160,112 172,126"/>
+        <path class="strand" d="M128,74 C140,88 145,94 150,100 C155,106 160,112 172,126"/>
+        <path class="casing" d="M428,74 C440,88 445,94 450,100 C455,106 460,112 472,126"/>
+        <path class="strand" d="M428,74 C440,88 445,94 450,100 C455,106 460,112 472,126"/>
+      </g>
+    </defs>
+  </svg>
+
+  <!-- ============ Header ============ -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="Tandem Search Partners — home">
+        <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true">
+          <g fill="none" stroke-width="2.6">
+            <rect x="5" y="13" width="22" height="18" rx="9" class="mark-stroke"/>
+            <rect x="17" y="13" width="22" height="18" rx="9" class="mark-casing"/>
+            <rect x="17" y="13" width="22" height="18" rx="9" class="mark-stroke"/>
+            <path d="M18.78,13.03 A9 9 0 0 1 24.89,16.21" class="mark-casing"/>
+            <path d="M18.78,13.03 A9 9 0 0 1 24.89,16.21" class="mark-stroke"/>
+          </g>
+        </svg>
+        <span class="brand-word">
+          <span class="brand-name">Tandem</span>
+          <span class="brand-sub">Search Partners</span>
+        </span>
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <a href="#method">Approach</a>
+        <a href="#meridian">Platform</a>
+        <a href="#practices">Practices</a>
+        <a href="#process">Process</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn btn-solid nav-cta">Book a consultation</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ Hero ============ -->
+    <section class="hero">
+      <div class="hero-weave" aria-hidden="true">
+        <svg viewBox="0 0 600 200" preserveAspectRatio="none">
+          <use href="#braid" class="braid-faint b1"/>
+        </svg>
+        <svg viewBox="0 0 600 200" preserveAspectRatio="none">
+          <use href="#braid" class="braid-faint b2"/>
+        </svg>
+      </div>
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Retained Executive Search</p>
+          <h1>The search you can&rsquo;t afford to run&nbsp;twice.</h1>
+          <p class="lede">
+            Tandem places credentialed finance, legal, and operating executives for companies
+            where the cost of a mis-hire is measured in quarters, not weeks. Veteran search
+            partners, working in tandem with Meridian&trade; &mdash; our proprietary
+            talent-intelligence platform.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-solid">Book a confidential consultation</a>
+            <a href="#method" class="btn btn-ghost">How the method works</a>
+          </div>
+        </div>
+        <div class="hero-figure reveal" aria-hidden="true">
+          <svg viewBox="0 0 600 200" class="hero-braid">
+            <use href="#braid"/>
+          </svg>
+          <div class="hero-figure-caption">
+            <span>Human judgment</span>
+            <span class="caption-rule"></span>
+            <span>Machine precision</span>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <dl class="statbar reveal">
+          <div class="stat">
+            <dt>Placements still in seat at 24&nbsp;months</dt>
+            <dd><span class="stat-num" data-count="94">94</span><span class="stat-unit">%</span></dd>
+          </div>
+          <div class="stat">
+            <dt>Median days to a qualified shortlist</dt>
+            <dd><span class="stat-num" data-count="28">28</span></dd>
+          </div>
+          <div class="stat">
+            <dt>Of placements were not actively looking</dt>
+            <dd><span class="stat-num" data-count="68">68</span><span class="stat-unit">%</span></dd>
+          </div>
+          <div class="stat">
+            <dt>Retained searches completed</dt>
+            <dd><span class="stat-num" data-count="400">400</span><span class="stat-unit">+</span></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ============ The stakes ============ -->
+    <section class="section section-tinted" id="stakes">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">The Stakes</p>
+          <h2>A failed executive search is a line item no one budgets&nbsp;for.</h2>
+          <p class="lede">
+            Recruiting cost, severance, lost momentum, and the second search &mdash; a mis-hire
+            at the executive level routinely costs a multiple of first-year compensation.
+            Most failures trace back to the same three process gaps.
+          </p>
+        </div>
+        <div class="card-grid three reveal">
+          <article class="card">
+            <span class="card-index">01</span>
+            <h3>Networks are narrow</h3>
+            <p>Traditional search draws on who a firm already knows. The strongest candidate
+            for your role is usually in no one&rsquo;s rolodex &mdash; and is not applying
+            to anything.</p>
+          </article>
+          <article class="card">
+            <span class="card-index">02</span>
+            <h3>Assessment is unstructured</h3>
+            <p>Interviews alone predict very little. Without consistent evidence &mdash;
+            credentials verified, outcomes referenced, criteria scored &mdash; decisions
+            default to instinct.</p>
+          </article>
+          <article class="card">
+            <span class="card-index">03</span>
+            <h3>Cycles run long</h3>
+            <p>Every month of vacancy in a finance or legal seat carries real cost: delayed
+            closes, audit exposure, stalled initiatives, and a team managing up instead
+            of forward.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ The Tandem Method ============ -->
+    <section class="section section-dark" id="method">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">The Tandem Method</p>
+          <h2>Human judgment and machine precision, interwoven.</h2>
+          <p class="lede">
+            Neither replaces the other. Software cannot close a candidate or read a boardroom;
+            people cannot read a whole market. Our method is built on both strands &mdash;
+            and on the discipline of keeping them honest.
+          </p>
+        </div>
+        <div class="method-braid reveal" aria-hidden="true">
+          <svg viewBox="0 0 600 200" preserveAspectRatio="xMidYMid meet">
+            <use href="#braid"/>
+          </svg>
+        </div>
+        <div class="method-columns reveal">
+          <div class="method-col">
+            <h3>The human strand</h3>
+            <ul class="rule-list">
+              <li>Partner-led from the first briefing to the signed offer &mdash; the person you meet is the person who runs the search.</li>
+              <li>Confidential outreach that senior executives actually answer.</li>
+              <li>Structured interviews and reference work done by people who have sat in the seats they assess.</li>
+              <li>Negotiation, resignation, and onboarding managed through the first year.</li>
+            </ul>
+          </div>
+          <div class="method-col">
+            <h3>The machine strand</h3>
+            <ul class="rule-list">
+              <li>Full-market mapping &mdash; every qualified executive in scope, not a sample of the available ones.</li>
+              <li>Credential and license verification at scale: CPA, CFA, JD, professional registrations.</li>
+              <li>Calibrated scoring against your criteria &mdash; the same rubric applied to every candidate.</li>
+              <li>Weekly reporting you can audit, not anecdotes you have to take on faith.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Meridian ============ -->
+    <section class="section" id="meridian">
+      <div class="container split">
+        <div class="split-copy reveal">
+          <p class="eyebrow">Proprietary Platform</p>
+          <h2>Meridian&trade; maps the entire market &mdash; so nothing is left to chance.</h2>
+          <p class="lede">
+            Built in-house and used on every engagement, Meridian is the reason our shortlists
+            arrive with evidence attached rather than adjectives.
+          </p>
+          <dl class="feature-list">
+            <div class="feature">
+              <dt>The whole market, mapped</dt>
+              <dd>Every qualified executive in scope for your role &mdash; including the majority
+              who are not looking and will never see a posting.</dd>
+            </div>
+            <div class="feature">
+              <dt>Evidence over impressions</dt>
+              <dd>Credentials, tenure patterns, scope of prior roles, and verified outcomes,
+              structured into profiles you can compare line by line.</dd>
+            </div>
+            <div class="feature">
+              <dt>A live view for you</dt>
+              <dd>Clients see the pipeline we see &mdash; candidates, status, and progress,
+              updated weekly. No black box, no mystery.</dd>
+            </div>
+            <div class="feature">
+              <dt>Discretion, engineered in</dt>
+              <dd>Access-controlled, need-to-know handling of every search and every
+              candidate record.</dd>
+            </div>
+          </dl>
+        </div>
+        <div class="split-figure reveal" aria-hidden="true">
+          <div class="panel-stack">
+            <div class="panel">
+              <div class="panel-head">
+                <span class="panel-title">Search 24-117 &middot; Chief Accounting Officer</span>
+                <span class="panel-badge">Week 4</span>
+              </div>
+              <div class="panel-row"><span>Market mapped</span><span class="panel-bar"><i style="--w:100%"></i></span><span class="panel-val">312</span></div>
+              <div class="panel-row"><span>Credential-verified</span><span class="panel-bar"><i style="--w:62%"></i></span><span class="panel-val">193</span></div>
+              <div class="panel-row"><span>Partner-interviewed</span><span class="panel-bar"><i style="--w:14%"></i></span><span class="panel-val">44</span></div>
+              <div class="panel-row"><span>Shortlist</span><span class="panel-bar"><i style="--w:3%"></i></span><span class="panel-val">6</span></div>
+            </div>
+            <div class="panel panel-back"></div>
+          </div>
+          <p class="figure-note">Illustrative client view &mdash; every search reports in this form, weekly.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Practices ============ -->
+    <section class="section section-tinted" id="practices">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Practice Areas</p>
+          <h2>Credentialed leadership, across the functions that carry the&nbsp;business.</h2>
+        </div>
+        <div class="practice-grid reveal">
+          <article class="practice featured">
+            <h3>Finance &amp; Accounting</h3>
+            <p class="practice-roles">CFO &middot; Chief Accounting Officer &middot; Controller &middot; Treasurer &middot; VP&nbsp;FP&amp;A &middot; Chief Audit Executive</p>
+            <p>The core of our practice: leaders with the credentials, and the scar tissue,
+            to be trusted with the numbers.</p>
+          </article>
+          <article class="practice">
+            <h3>Legal, Risk &amp; Compliance</h3>
+            <p class="practice-roles">General Counsel &middot; Chief Compliance Officer &middot; Chief Risk Officer</p>
+            <p>Bar-admitted, regulator-tested leadership for the seats where judgment is
+            the whole job.</p>
+          </article>
+          <article class="practice">
+            <h3>Operations &amp; Supply Chain</h3>
+            <p class="practice-roles">COO &middot; EVP Operations &middot; VP Supply Chain</p>
+            <p>Operators who have run the P&amp;L consequences of their own decisions.</p>
+          </article>
+          <article class="practice">
+            <h3>Technology &amp; Data</h3>
+            <p class="practice-roles">CIO &middot; CTO &middot; CISO &middot; VP Data</p>
+            <p>Where our firm began &mdash; now one practice among equals, held to the
+            same standard of evidence.</p>
+          </article>
+          <article class="practice">
+            <h3>Human Capital</h3>
+            <p class="practice-roles">CHRO &middot; VP Total Rewards &middot; VP Talent</p>
+            <p>People leaders measured by retention and succession, not programs launched.</p>
+          </article>
+          <article class="practice">
+            <h3>Board &amp; Advisory</h3>
+            <p class="practice-roles">Independent Directors &middot; Audit Committee Chairs &middot; Interim Executives</p>
+            <p>Governance-ready candidates for the table where accountability ends.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Process ============ -->
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">How a Search Runs</p>
+          <h2>Six weeks to a shortlist you can defend.</h2>
+        </div>
+        <ol class="process-list reveal">
+          <li class="process-step">
+            <div class="step-marker"><span class="step-num">01</span><span class="step-week">Week 1</span></div>
+            <div class="step-body">
+              <h3>Calibrate</h3>
+              <p>We sit with you and your stakeholders to define the role in evidence:
+              outcomes expected, credentials required, the criteria a finalist must score
+              against. You approve the rubric before we contact anyone.</p>
+            </div>
+          </li>
+          <li class="process-step">
+            <div class="step-marker"><span class="step-num">02</span><span class="step-week">Weeks 1&ndash;3</span></div>
+            <div class="step-body">
+              <h3>Map</h3>
+              <p>Meridian builds the full market &mdash; everyone qualified, not everyone
+              available. Your partner reviews and prioritizes; confidential outreach begins.</p>
+            </div>
+          </li>
+          <li class="process-step">
+            <div class="step-marker"><span class="step-num">03</span><span class="step-week">Weeks 3&ndash;6</span></div>
+            <div class="step-body">
+              <h3>Assess</h3>
+              <p>Structured interviews, credential verification, and referencing against the
+              rubric. You receive a shortlist with the evidence attached &mdash; not just
+              our opinion of it.</p>
+            </div>
+          </li>
+          <li class="process-step">
+            <div class="step-marker"><span class="step-num">04</span><span class="step-week">Offer &rarr; Year one</span></div>
+            <div class="step-body">
+              <h3>Secure</h3>
+              <p>Your partner manages negotiation, resignation, and transition, then stays
+              with the placement through the first year. Retention is a commitment we
+              report on, not a hope.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section section-tinted" id="faq">
+      <div class="container narrow">
+        <div class="section-head reveal">
+          <p class="eyebrow">Straight Answers</p>
+          <h2>The questions CFOs ask us first.</h2>
+        </div>
+        <div class="faq-list reveal">
+          <details class="faq-item">
+            <summary>What does a search cost?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>We work on a retained basis with a fixed, agreed fee &mdash; no surprises tied
+              to compensation negotiations. The full fee structure goes in writing before you
+              commit to anything.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>What happens if the placement doesn&rsquo;t work out?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>Every search carries a replacement assurance: if a placement departs within
+              the guarantee period, we re-run the search at no additional professional fee.
+              The exact terms are in the engagement letter.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>How is AI actually used &mdash; and where isn&rsquo;t it?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>Meridian does the reading: mapping the market, structuring evidence, keeping
+              scoring consistent. It does not make decisions. Every candidate you meet was
+              interviewed, referenced, and recommended by a partner accountable to you by name.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>How do you handle confidentiality?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>Searches are confidential by default. Outreach never names the client without
+              written approval, sensitive searches run under a mandate code, and candidate data
+              is access-controlled and handled on a need-to-know basis.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>Why not use our internal recruiters, or a contingency firm?<span class="faq-icon" aria-hidden="true"></span></summary>
+            <div class="faq-body">
+              <p>For most roles, you should use internal recruiting. Retained search earns its
+              fee where the seat is critical, the market is thin, and the strongest candidates
+              aren&rsquo;t applying. That is the only work we take.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Contact ============ -->
+    <section class="section section-dark" id="contact">
+      <div class="container split">
+        <div class="split-copy reveal">
+          <p class="eyebrow">Start a Search</p>
+          <h2>Bring us the seat you&rsquo;re worried about.</h2>
+          <p class="lede">
+            A confidential consultation is thirty minutes: your role, our read of the market,
+            and a straight answer on whether we&rsquo;re the right firm for it. If we&rsquo;re
+            not, we&rsquo;ll say so.
+          </p>
+          <div class="contact-direct">
+            <p><span class="contact-label">Email</span><a href="mailto:searches@tandemsearchpartners.com">searches@tandemsearchpartners.com</a></p>
+            <p><span class="contact-label">Phone</span><a href="tel:+17135550147">+1 (713) 555-0147</a></p>
+            <p><span class="contact-label">Office</span>Houston, Texas &middot; serving clients nationally</p>
+          </div>
+        </div>
+        <div class="split-figure reveal">
+          <!-- Static form: wire `action` to your form backend (e.g. Formspree, Basin) or your CRM endpoint. -->
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-row two">
+              <label>Name<input type="text" name="name" autocomplete="name" required></label>
+              <label>Title<input type="text" name="title" autocomplete="organization-title" required></label>
+            </div>
+            <div class="form-row two">
+              <label>Company<input type="text" name="company" autocomplete="organization" required></label>
+              <label>Work email<input type="email" name="email" autocomplete="email" required></label>
+            </div>
+            <div class="form-row two">
+              <label>Role you&rsquo;re hiring
+                <select name="role" required>
+                  <option value="" selected disabled>Select&hellip;</option>
+                  <option>Finance &amp; accounting leadership</option>
+                  <option>Legal, risk &amp; compliance</option>
+                  <option>Operations &amp; supply chain</option>
+                  <option>Technology &amp; data</option>
+                  <option>Human capital</option>
+                  <option>Board &amp; advisory</option>
+                  <option>Other / not sure yet</option>
+                </select>
+              </label>
+              <label>Timeline
+                <select name="timeline">
+                  <option value="" selected disabled>Select&hellip;</option>
+                  <option>Immediately &mdash; the seat is open</option>
+                  <option>Within the quarter</option>
+                  <option>Planning ahead</option>
+                  <option>Confidential replacement</option>
+                </select>
+              </label>
+            </div>
+            <div class="form-row">
+              <label>Anything we should know
+                <textarea name="message" rows="4" placeholder="Context, reporting line, what the last search missed&hellip;"></textarea>
+              </label>
+            </div>
+            <button type="submit" class="btn btn-light form-submit">Request consultation</button>
+            <p class="form-note">Confidential. We respond within one business day.</p>
+            <p class="form-success" hidden>Thank you &mdash; your request is in. A partner (a person, not a sequence) will reach out within one business day.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ Footer ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#top" class="brand" aria-label="Back to top">
+          <svg class="brand-mark" viewBox="0 0 44 44" aria-hidden="true">
+            <g fill="none" stroke-width="2.6">
+              <rect x="5" y="13" width="22" height="18" rx="9" class="mark-stroke"/>
+              <rect x="17" y="13" width="22" height="18" rx="9" class="mark-casing"/>
+              <rect x="17" y="13" width="22" height="18" rx="9" class="mark-stroke"/>
+              <path d="M18.78,13.03 A9 9 0 0 1 24.89,16.21" class="mark-casing"/>
+              <path d="M18.78,13.03 A9 9 0 0 1 24.89,16.21" class="mark-stroke"/>
+            </g>
+          </svg>
+          <span class="brand-word">
+            <span class="brand-name">Tandem</span>
+            <span class="brand-sub">Search Partners</span>
+          </span>
+        </a>
+        <p class="footer-tag">Retained executive search. Human judgment and machine precision, interwoven.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <div>
+          <h4>Firm</h4>
+          <a href="#method">Approach</a>
+          <a href="#meridian">Platform</a>
+          <a href="#practices">Practices</a>
+        </div>
+        <div>
+          <h4>Engage</h4>
+          <a href="#process">Process</a>
+          <a href="#faq">FAQ</a>
+          <a href="#contact">Book a consultation</a>
+        </div>
+      </nav>
+    </div>
+    <div class="container footer-legal">
+      <p>&copy; 2026 Tandem Search Partners. All rights reserved.</p>
+      <p>Meridian&trade; is the proprietary talent-intelligence platform of Tandem Search Partners.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
