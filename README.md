@@ -11,7 +11,7 @@ serve the folder from any static host (GitHub Pages, Netlify, S3, etc.).
 
 ```
 index.html          Single-page site (hero, stakes, method, platform, practices,
-                    process, FAQ, contact)
+                    process, engagement models, firm, FAQ, contact)
 css/styles.css      Monochrome design system (ink #0c0c0b on paper #fbfaf7)
 js/main.js          Nav, scroll reveal, stat count-up, form handling
 assets/logo.svg     Interlocked-strand mark + wordmark
@@ -31,6 +31,18 @@ assets/favicon.svg  Mark on black tile
 - **Type:** Fraunces (display serif) + Inter (text), loaded from Google Fonts
   with system fallbacks.
 
+## Carried over from the original SBR2TH site
+
+- **Mission** — "We exist to help companies build" (about-us headline).
+- **Values** — do what's right / raise the bar / succeed when clients succeed /
+  embrace technology, lightly rewritten in the Tandem voice.
+- **Engagement models** — Retingent™ (retained precision + contingent
+  economics) and Pipelining (pre-built talent benches), reframed for
+  executive/credentialed roles alongside flagship retained search.
+- **Leadership backgrounds** — the four role-based profiles in the Firm section
+  mirror the original team's stated backgrounds (recruiting executive, corporate
+  HR in tech/aerospace & defense, global business leader, software CTO).
+
 ## Placeholders to replace before launch
 
 - **Statistics** in the hero stat bar (94% retention, 28-day shortlist, 68%
@@ -43,3 +55,5 @@ assets/favicon.svg  Mark on black tile
 - **Contact form** is client-side only; wire it to a form service (Formspree,
   Basin) or CRM endpoint in `js/main.js` / the form `action`.
 - **Meridian panel** figures (search 24-117) are illustrative.
+- **Leadership section** uses anonymous role-based profiles — add real partner
+  names, titles, bios, and photos.
